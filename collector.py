@@ -173,7 +173,6 @@ if __name__ == "__main__":
             o.collect()
 
     except BaseException as e:
-        raise
         print(e.message)
         exit(1)
     pass
